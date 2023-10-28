@@ -194,7 +194,8 @@ const ProductModal = ({show, onHide, title, modalType, prod, refreshData}:Produc
                         </Form.Group>
 
                         <Modal.Footer className="mt-4">
-                        {/* OnHide para que se oculte cuando se haga click, disabled para deshabilitar el boton si el formulario no es correcto*/}  
+                        {/* OnHide para que se oculte cuando se haga click, disabled para deshabilitar 
+                        el boton si el formulario no es correcto*/}  
                             <Button variant="secondary" onClick={onHide}>
                                 Cancelar
                             </Button>
